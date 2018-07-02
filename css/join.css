@@ -1,0 +1,6 @@
+input[type=submit]:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #595757;
+	cursor: pointer;
+}

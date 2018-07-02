@@ -1,0 +1,103 @@
+#main {
+	background: url('../images/main.jpg');
+	height: 1000px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#m_con {
+	position: absolute;
+	color: white;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+#go_b {
+	border: 2px solid #ffffff;
+	border-radius: 4px;
+	width: 150px;
+	color: #ffffff;
+	padding: 10px 20px;
+	cursor: pointer;
+	margin-top: 50px;
+	letter-spacing: 1px;
+}
+#b_button {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+}
+#h_name {
+	font-size: 500%;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-weight: lighter;
+	text-align: center;
+	letter-spacing: 5px;
+	padding: 0px;
+	margin: 0 auto;
+}
+#go_b:hover {
+	color: #595757;
+	background-color: rgba(255,255,255,0.8);
+}
+#main_a {
+	height:600px;
+	background-color: white;
+}
+#h_sum {
+	font-size: 93%;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+}
+#flex_div {
+	width: 90%;
+	height: 600px;
+	min-width: 320px;
+	display: -webkit-flex;
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	color: #595757;
+}
+#flex_div div {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	padding: 10px;
+	text-align: justify;
+}
+#flex_div div ul {
+	color: #595757;
+	font-size: 80%;
+	font-family: 'Roboto', sans-serif;
+	padding: 0px;
+}
+#flex_div div ul li {
+	padding: 6px;
+}
+#flex_div div img {
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 20px auto;
+	cursor: default;
+}
+.div_title {
+	text-align: center;
+	text-transform: uppercase;
+}
+.div_details {
+	color: #595757;
+	font-size: 80%;
+	line-height: 20px;
+}
+@media only screen and (max-device-width:1366px) {
+	#main {
+		background-attachment: scroll;
+	}
+}
