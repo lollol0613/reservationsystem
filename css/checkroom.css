@@ -1,0 +1,151 @@
+.backimg {
+	height:60px;
+	width:100%;
+	background-color:#595757;
+}
+.checkroom-top {
+	background: url('../images/check.jpg');
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.yellow {
+	width:100%;
+	height:10px;
+	background-color:#ffd02b;
+}
+#checkroom-title {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	left: 50%;
+	width: 200px;
+	transform: translate(-50%,-50%);
+	font-family: 'Rajdhani', sans-serif;
+	border-top: 2px solid #ffd02b;
+	padding: 5px;
+	letter-spacing: 1.5px;
+}
+.result_wrap {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 105%;
+}
+.flex {
+	width: 90%;
+	height: auto;
+	min-width: 320px;
+	display: -webkit-flex;
+	display: flex;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.rmenu {
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 105%;
+}
+#flex_reservation {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	padding: 20px 30px;
+	width: 200px;
+	height: 800px;
+	background-color: #ffd02b;
+	margin: 20px auto;
+	border-radius: 5px;
+	line-height: 25px;
+	min-width: 200px;
+	max-width: 320px;
+	max-height: 350px;
+}
+/*.fmselect {
+	width: 70px;
+	padding: 12px 20px;
+	margin: 5px 15px;
+	box-sizing: border-box;
+	background-color: #f1f1f1;
+}
+/*#flex_roomchoose {
+	padding: 10px;
+	height: 800px;
+}*/
+#reservation-title {
+	font-size: 150%;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	margin-bottom: 20px;
+	color: #ffffff;
+}
+#editB {
+	margin: 20px auto;
+	padding: 12px 20px;
+	font-size: 90%;
+}
+#editB:hover {
+	border: 1px solid #ffffff;
+}
+#bookB {
+	background: #ffd02b;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	margin-top: 20px;
+	padding: 12px 20px;
+	font-size: 90%;
+	border-radius: 3px;
+	font-family: 'Rajdhani', sans-serif;
+	letter-spacing: 1.5px;
+}
+#bookB:hover {
+	border: none;
+	background-color: #ffffff;
+	color: #ffd02b;
+	cursor: pointer;
+}
+.roomdetails {
+	width: 800px;
+	height: auto;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	min-width: 480px;
+}
+.roomname {
+	font-family: 'Playfair Display', serif;
+	font-size: 110%;
+	font-weight: bold;
+	border-left: 2px solid #ffd02b;
+	padding-left: 5px;
+}
+.roomimg {
+	width: 350px;
+	margin: 15px auto;
+	padding: 0;
+}
+/*.eroom {
+	border-bottom: 2px solid #ffd02b;
+	border: ;
+}*/
+.roominfo {
+	padding-left: 15px;
+}
+.desc {
+	font-size: 95%;
+	font-style: italic;
+	font-family: 'Playfair Display', serif;
+	padding: 10px 0;
+}
+.ro {
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 105%;
+}

@@ -1,0 +1,122 @@
+#reservation-top {
+	background: url('../images/check.jpg');
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#reservation-main {
+	height:1000px;
+	background-color: white;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 105%;
+}
+#reservation-top #reservation-message {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	left: 50%;
+	width: 200px;
+	transform: translate(-50%,-50%);
+	font-family: 'Rajdhani', sans-serif;
+	border-top: 2px solid #ffd02b;
+	padding: 5px;
+	letter-spacing: 1.5px;
+}
+#re-flex {
+	width: 80%;
+	height: 1000px;
+	min-width: 320px;
+	display: -webkit-flex;
+	display: flex;
+	color: #595757;
+}
+#re-check {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	padding: 20px 30px;
+	width: 200px;
+	height: 800px;
+	background-color: #ffd02b;
+	margin: 20px auto;
+	border-radius: 5px;
+	line-height: 25px;
+	min-width: 200px;
+	max-width: 320px;
+	max-height: 450px;
+}
+h1 {
+	font-family: 'Rajdhani', sans-serif;
+}
+#re-guestinfo {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	text-align: justify;
+	height: 800px;
+	margin-left: 20px;
+	min-width: 400px;
+	padding: 0 20px;
+	font-family: 'Playfair Display', serif;
+}
+#reservation-title {
+	font-size: 150%;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	margin-bottom: 20px;
+	color: #ffffff;
+}
+.rmenu {
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 105%;
+	color: #000000;
+}
+#editB {
+	margin: 20px auto;
+	padding: 12px 20px;
+	font-size: 90%;
+}
+#editB:hover {
+	border: 1px solid #ffffff;
+}
+#bookB {
+	color: #ffd02b;
+	border: 1px solid #ffd02b;
+	margin-top: 20px;
+	padding: 12px 20px;
+	font-size: 90%;
+	border-radius: 3px;
+	font-family: 'Rajdhani', sans-serif;
+	letter-spacing: 1.5px;
+}
+#bookB:hover {
+	border: none;
+	background-color: #ffd02b;
+	color: #ffffff;
+	cursor: pointer;
+}
+#confirmmsg {
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#guestinfo {
+	width: 80%;
+	height: auto;
+	letter-spacing: 1px;
+	line-height: 25px;
+	color: #000000;
+}
+#guestinfo #guest {
+	font-family: 'Rajdhani', sans-serif;
+}
+textarea {
+	width: 450px;
+	height: 150px;
+}

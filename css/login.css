@@ -1,0 +1,155 @@
+.modal_container input[type=text], .modal_container input[type=password] {
+	width: 80%;
+	padding: 12px 20px;
+	margin: 8px auto;
+	display: inline-block;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ccc;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+::placeholder {
+	color: #ccc;
+}
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	padding-top: 30px;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.6);
+	align-items: center;
+}
+.modal-top {
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+}
+.close {
+	position: absolute;
+	right: 20px;
+	top: 0;
+	color: #ffd02b;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+.close:hover, .close:focus {
+	color: #428bca;
+	cursor: pointer;
+}
+.animate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s;
+}
+/*WELCOME text style*/
+#modal-welcome {color: #595757;
+	font-size: 35px;
+	font-weight: bold;
+	
+	font-family: 'Rajdhani', sans-serif;
+	padding: 35px 0;
+}
+.modal_container {
+	padding: 10px;
+	text-align: center;
+	margin-top: 20px;
+}
+/*Login Button*/
+#inB {
+	width: 80%;
+	padding: 12px 15px;
+	margin: 8px auto;
+	display: inline-block;
+	border-radius: 20px;
+	box-sizing: border-box;
+	border: 1px solid #ffb02d;
+	color: #ffb02d;
+	letter-spacing: 1.5px;
+	font-size: 90%;
+}
+#inB:hover {
+	background-color: #ffb02d;
+	color: #ffffff;
+}
+/*Cancel Button*/
+#canB {
+	width: 80%;
+	padding: 12px 15px;
+	margin: 8px auto;
+	display: inline-block;
+	border-radius: 20px;
+	box-sizing: border-box;
+	border: 0px;
+	background-color: #ffb02d;
+	color: #ffffff;
+	letter-spacing: 1.5px;
+}
+#canB:hover {
+	background-color: #428bca;
+}
+.modal-content {
+	background-color: #ffffff;
+	margin: 5% auto 15% auto;
+	border-radius: 10px;
+	width: 390px;
+	overflow: hidden;
+	height: 580px;
+}
+.modalR {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 85%;
+	margin: 0 auto;
+	width: 70%;
+	padding: 0 20px;
+	color: #666666;
+}
+#reM {
+	float: right;
+}
+/*Forgor Password*/
+.psw {
+	padding-top: 10px;
+}
+.psw a {
+	text-decoration: underline;
+}
+.modalD {
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	color: #666666;
+	font-size: 15px;
+	padding-top: 100px;
+}
+/*Sign up notice*/
+.upA a{
+	color: #595757;
+}
+.upA:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+.upA a:hover {
+	color: #ffd02b;
+}
+@-webkit-keyframes animatezoom {
+	from {-webkit-transform:scale(0);}
+	to {-webkit-transform:scale(1);}
+}
+@keyframes animatezoom {
+	from {transform:scale(0);}
+	to {transform:scale(1);}
+}
+@media screen and (max-width:300px) {
+	span.psw {
+		display: block;
+		float: none;
+	}
+}

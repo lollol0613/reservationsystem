@@ -53,7 +53,7 @@
 	text-align: center;
 }
 #flex_div {
-	width: 90%;
+	width: 80%;
 	height: 600px;
 	min-width: 320px;
 	display: -webkit-flex;
@@ -67,12 +67,14 @@
 	flex: 1;
 	padding: 10px;
 	text-align: justify;
+	height: 400px;
 }
 #flex_div div ul {
 	color: #595757;
 	font-size: 80%;
 	font-family: 'Roboto', sans-serif;
 	padding: 0px;
+	list-style-position: inside;
 }
 #flex_div div ul li {
 	padding: 6px;
@@ -100,4 +102,20 @@
 	#main {
 		background-attachment: scroll;
 	}
+}
+@media only screen and (max-width:600px) {
+	#flex_div {
+		display: block;
+		height: auto;
+	}
+	#main_a {
+		height: auto;
+	}
+	#m_con {
+		margin-top: 50px;
+	}
+	#h_sum {
+		text-align: justify;
+	}
+
 }

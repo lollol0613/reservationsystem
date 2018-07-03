@@ -1,6 +1,0 @@
-test,1234,Raina,Ji,163789,asldkf@df.com,dlkasjdfhqlkd
-raina,1234,Mihyun,Ji,12637489,dksaj@dkf.com,dlkfjd
-alksdj,alsdkjf,alsdkjfld,alsdkjfl,267489,alsdkjf@dkf.com,alsdkjfhdl
-hello,1234,hi,yeah,12536784,yeah@gmail.com,alsdkf
-mihyun,1234,ji,jenny,15278,asldk@dkf.com,alskdjf
-ruru,a1234,lol,lol,152678,asdkjf@dkf.com,alksdjfhw
